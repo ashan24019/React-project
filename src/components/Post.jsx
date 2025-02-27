@@ -1,13 +1,11 @@
-const names = ['Ashan', 'Romie']
-
-function Post() {
+function Post(props) {
 
 
     return (
-        <di>
-            <p>Ashan</p>
-            <p>Romie is awesome!</p>
-        </di>
+        <div>
+            <p>{props.author}</p>
+            <p>{props.body}</p>
+        </div>
     );
 }
 

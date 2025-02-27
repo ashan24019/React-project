@@ -3,10 +3,8 @@ import Post from "./components/Post"
 function App() {
   return (
     <main>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
+      <Post author="Theo" body="My name is Ashan"/>
+      <Post author="Romie" body="My name is Harsha"/>
     </main>
   );
 }
